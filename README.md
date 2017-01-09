@@ -47,4 +47,8 @@ for structuring, manipulating, and querying data.
 
 ![cap](doc/images/cap.png)
 
-更多信息见doc下文档：[doc](doc)
+更多文档信息：
+
+1.[NewSQL新型分布式数据库研究报告_by-wen_2016-10-19.pdf](NewSQL新型分布式数据库研究报告_by-wen_2016-10-19.pdf)
+
+2.[NewSQL大集中实验报告_by-wen_2016-11-18.pdf](NewSQL大集中实验报告_by-wen_2016-11-18.pdf)
