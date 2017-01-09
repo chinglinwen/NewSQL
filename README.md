@@ -1,6 +1,6 @@
 # NewSQL
 
-## 问题
+## 1. 问题
 
 传统数据库不支持水平扩展,带来性能的局限性,NoSQL数据库具备水平扩展，但却
 不具备ACID事务交易、数据的强一致性、SQL语句的支持等功能，进而给开发带来昂
@@ -11,7 +11,7 @@ NoSQL的性能优点,实现高可扩展性和强一致性数据库,支持ACID事
 在应用层做一致性的控制和事务的处理,简化开发人员的负担，使投入更多精力解决
 核心业务问题。
 
-## NewSQL的定义
+## 2. NewSQL的定义
 
 "A DBMS that delivers the scalability and flexibility
 promised by NoSQL while retaining the support for SQL
@@ -26,11 +26,11 @@ High per-node performance
 Scalable, shared nothing architecture"
 Michael Stonebraker
 
-## 关于CAP
+## 3. 关于CAP
 
 ![cap](doc/images/cap.png)
 
-## CockroachDB (NewSQL数据库)
+## 3. CockroachDB (NewSQL数据库)
 
 CockroachDB is a distributed SQL database built on a transactional and
 strongly-consistent key-value store.
@@ -39,14 +39,16 @@ with minimal latency disruption and no manual intervention.
 supports strongly-consistent ACID transactions; and provides a familiar SQL API
 for structuring, manipulating, and querying data.
 
-## CockroachDB vs TiDB
+## 4. CockroachDB vs TiDB
 
 ![CockroachDB_vs_TiDB](doc/images/CockroachDB_vs_TiDB.png)
 
-## CockroachDB与其它数据库的比较
+## 5. CockroachDB与其它数据库的比较
 
 ![cockroachdb_in_comparison](doc/images/cockroachdb_in_comparison.png)
 
-## CockroachDB SQL支持的范围
+## 6. CockroachDB SQL支持的范围
 
 ![feature_info](doc/images/feature_info.png)
+
+更多信息见doc下文档：[doc](doc)
